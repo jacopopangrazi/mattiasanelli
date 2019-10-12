@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="jacopopangrazi" />
+  <meta name="theme-color" content="#fff" />
+
+  <title>Galleria | Sanelli - Guida di pesca professionista</title>
+
+  <!-- favicon-->
+  <link rel="icon" href="images/LogoMini.png" />
+
+  <!-- fontawesome 5 -->
+  <script src="https://kit.fontawesome.com/fee90171f5.js"></script>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!-- lightbox -->
+  <link href="fancybox/jquery.fancybox.min.css" rel="stylesheet">
+  <script src="fancybox/jquery.fancybox.min.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav>
+    <div id="top">
+      <!-- logo -->
+      <span id="logo"><a href="index.html"><img src="images/Logo.png" alt="immagine logo"></a></span>
+
+      <!-- navigazione -->
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="galleria.html">Galleria</a></li>
+        <li><a href="index.html#form-section">Contatta</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hamburger per menu responsive -->
+  <div id="toggle">
+    <svg id="hamburger" class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
+      onclick="this.classList.toggle('active')">
+      <path class="line top"
+        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+      <path class="line middle" d="m 30,50 h 40" />
+      <path class="line bottom"
+        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+    </svg>
+  </div>
+  <!-- Menu responsive -->
+  <div id="full-menu" class="">
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="galleria.html">Galleria</a></li>
+      <li><a href="index.html#form-section">Contatta</a></li>
+    </ul>
+  </div>
+
+
+  <!-- hero section -->
+  <div id="hero-gallery" class="slideDown">
+    <div id="gallery-title">
+      <h2 class="fade">GALLERIA</h2>
+    </div>
+    <div class="gallery-shape gallery-shape-bottom" data-negative="false">
+      <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 283.5 27.8"
+        preserveAspectRatio="xMidYMax slice">
+        <path class="elementor-shape-fill"
+          d="M0 0v1.4c.6.7 1.1 1.4 1.4 2 2 3.8 2.2 6.6 1.8 10.8-.3 3.3-2.4 9.4 0 12.3 1.7 2 3.7 1.4 4.6-.9 1.4-3.8-.7-8.2-.6-12 .1-3.7 3.2-5.5 6.9-4.9 4 .6 4.8 4 4.9 7.4.1 1.8-1.1 7 0 8.5.6.8 1.6 1.2 2.4.5 1.4-1.1.1-5.4.1-6.9.1-3.7.3-8.6 4.1-10.5 5-2.5 6.2 1.6 5.4 5.6-.4 1.7-1 9.2 2.9 6.3 1.5-1.1.7-3.5.5-4.9-.4-2.4-.4-4.3 1-6.5.9-1.4 2.4-3.1 4.2-3 2.4.1 2.7 2.2 4 3.7 1.5 1.8 1.8 2.2 3 .1 1.1-1.9 1.2-2.8 3.6-3.3 1.3-.3 4.8-1.4 5.9-.5 1.5 1.1.6 2.8.4 4.3-.2 1.1-.6 4 1.8 3.4 1.7-.4-.3-4.1.6-5.6 1.3-2.2 5.8-1.4 7 .5 1.3 2.1.5 5.8.1 8.1s-1.2 5-.6 7.4c1.3 5.1 4.4.9 4.3-2.4-.1-4.4-2-8.8-.5-13 .9-2.4 4.6-6.6 7.7-4.5 2.7 1.8.5 7.8.2 10.3-.2 1.7-.8 4.6.2 6.2.9 1.4 2 1.5 2.6-.3.5-1.5-.9-4.5-1-6.1-.2-1.7-.4-3.7.2-5.4 1.8-5.6 3.5 2.4 6.3.6 1.4-.9 4.3-9.4 6.1-3.1.6 2.2-1.3 7.8.7 8.9 4.2 2.3 1.5-7.1 2.2-8 3.1-4 4.7 3.8 6.1 4.1 3.1.7 2.8-7.9 8.1-4.5 1.7 1.1 2.9 3.3 3.2 5.2.4 2.2-1 4.5-.6 6.6 1 4.3 4.4 1.5 4.4-1.7 0-2.7-3-8.3 1.4-9.1 4.4-.9 7.3 3.5 7.8 6.9.3 2-1.5 10.9 1.3 11.3 4.1.6-3.2-15.7 4.8-15.8 4.7-.1 2.8 4.1 3.9 6.6 1 2.4 2.1 1 2.3-.8.3-1.9-.9-3.2 1.3-4.3 5.9-2.9 5.9 5.4 5.5 8.5-.3 2-1.7 8.4 2 8.1 6.9-.5-2.8-16.9 4.8-18.7 4.7-1.2 6.1 3.6 6.3 7.1.1 1.7-1.2 8.1.6 9.1 3.5 2 1.9-7 2-8.4.2-4 1.2-9.6 6.4-9.8 4.7-.2 3.2 4.6 2.7 7.5-.4 2.2 1.3 8.6 3.8 4.4 1.1-1.9-.3-4.1-.3-6 0-1.7.4-3.2 1.3-4.6 1-1.6 2.9-3.5 5.1-2.9 2.5.6 2.3 4.1 4.1 4.9 1.9.8 1.6-.9 2.3-2.1 1.2-2.1 2.1-2.1 4.4-2.4 1.4-.2 3.6-1.5 4.9-.5 2.3 1.7-.7 4.4.1 6.5.6 1.5 2.1 1.7 2.8.3.7-1.4-1.1-3.4-.3-4.8 1.4-2.5 6.2-1.2 7.2 1 2.3 4.8-3.3 12-.2 16.3 3 4.1 3.9-2.8 3.8-4.8-.4-4.3-2.1-8.9 0-13.1 1.3-2.5 5.9-5.7 7.9-2.4 2 3.2-1.3 9.8-.8 13.4.5 4.4 3.5 3.3 2.7-.8-.4-1.9-2.4-10 .6-11.1 3.7-1.4 2.8 7.2 6.5.4 2.2-4.1 4.9-3.1 5.2 1.2.1 1.5-.6 3.1-.4 4.6.2 1.9 1.8 3.7 3.3 1.3 1-1.6-2.6-10.4 2.9-7.3 2.6 1.5 1.6 6.5 4.8 2.7 1.3-1.5 1.7-3.6 4-3.7 2.2-.1 4 2.3 4.8 4.1 1.3 2.9-1.5 8.4.9 10.3 4.2 3.3 3-5.5 2.7-6.9-.6-3.9 1-7.2 5.5-5 4.1 2.1 4.3 7.7 4.1 11.6 0 .8-.6 9.5 2.5 5.2 1.2-1.7-.1-7.7.1-9.6.3-2.9 1.2-5.5 4.3-6.2 4.5-1 7.7 1.5 7.4 5.8-.2 3.5-1.8 7.7-.5 11.1 1 2.7 3.6 2.8 5 .2 1.6-3.1 0-8.3-.4-11.6-.4-4.2-.2-7 1.8-10.8 0 0-.1.1-.1.2-.2.4-.3.7-.4.8v.1c-.1.2-.1.2 0 0v-.1l.4-.8c0-.1.1-.1.1-.2.2-.4.5-.8.8-1.2V0H0zM282.7 3.4z">
+        </path>
+      </svg> </div>
+  </div>
+
+  <main id="gallery-content" class="slideDown">
+    <div id="gallery-container" class="fade">
+      <div>
+        <h3>Titolo foto</h3>
+        <a data-fancybox="gallery" href="images/fiume.jpeg">
+          <img src="images/fiume.jpeg" alt="Immagine fiume">
+        </a>
+      </div>
+      <div>
+        <h3>Titolo foto</h3>
+        <a data-fancybox="gallery" href="images/macro.jpeg">
+          <img src="images/macro.jpeg" alt="Immagine fiume">
+        </a>
+      </div>
+      <div>
+        <h3>Titolo foto</h3>
+        <a data-fancybox="gallery" href="images/pesca-mosca.jpeg">
+          <img src="images/pesca-mosca.jpeg" alt="Immagine fiume">
+        </a>
+      </div>
+      <div>
+        <h3>Titolo foto</h3>
+        <a data-fancybox="gallery" href="images/pesca-natura.jpeg">
+          <img src="images/pesca-natura.jpeg" alt="Immagine fiume">
+        </a>
+      </div>
+      <div>
+        <h3>Titolo foto</h3>
+        <a data-fancybox="gallery" href="images/pesce.jpeg">
+          <img src="images/pesce.jpeg" alt="Immagine fiume">
+        </a>
+      </div>
+    </div>
+  </main>
+
+
+  <a href="#top"><i class="fa fa-angle-up tornaSu"></i></a>
+
+  <footer>
+    <div>
+      <h2>Info</h2>
+      <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit.
+        Ut
+        elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. It is a long established</p>
+
+      <span>
+        <a href="https://www.instagram.com/mattiasanelli/?hl=it_blank">
+          <i class="fab fa-instagram social-icon"></i>
+        </a>
+        <a class="social-icon" href="#">
+          <i class="fab fa-facebook-f social-icon"></i>
+        </a>
+      </span>
+    </div>
+    <div class="cont">
+      <div class="vignetta">
+        <p>I am slide content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+      </div>
+      <div class="info">
+        <img src="images/miniMattia.png" alt="Illustrazione persona">
+        <h3>Mattia Sanelli</h3>
+        <p>PESCATORE PROFESSIONISTA</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
