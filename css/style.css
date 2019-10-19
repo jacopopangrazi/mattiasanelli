@@ -533,7 +533,10 @@ footer div .info h3 {
   }
 
   footer div {
+    box-sizing: border-box;
     width: 90%;
+    margin: 0 auto;
+    padding: 10px;
   }
 }
 
@@ -573,6 +576,7 @@ footer div .info h3 {
 }
 
 #gallery-title h2 {
+  margin-top: 40px;
   opacity: 0;
   flex: 1;
   font-size: 7rem;
@@ -663,7 +667,7 @@ footer div .info h3 {
 
 @media (max-width: 800px) {
   #gallery-title h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
